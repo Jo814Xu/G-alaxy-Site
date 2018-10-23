@@ -1,8 +1,29 @@
 /* CSS Document */
-h1, h2 {
-	font-family: 'alexa-std';
+#sitetitle {
+	font-family: "Harlow Solid";
+	position: absolute;
+	color: goldenrod;
+	font-size: 72px;
+	z-index: 1;
+	left: 100px;
+    top: 0px;
+}
+
+#sitesubtitle {
+	font-family: "Harlow Solid";
+	color: white;
+	position: absolute;
+	z-index: 1;
+	left: 650px;
+    top: 260px;
+	
 }
 
 header {
 	text-align: center;
+}
+
+#imagegalaxy {
+	position: relative;
+	
 }
