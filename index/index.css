@@ -28,10 +28,29 @@ header {
 	
 }
 
+article{
+	position: relative;
+	width: 100%;
+	left: 280px;
+	bottom: 600px;
+}
+
 p {
 	font-size: 26px;
 }
 
+
+
 .title{
 	font-size: 30px;
+}
+
+.transformations{
+	position: relative;
+	bottom: 600px;
+	left: 280px;
+}
+
+footer{
+	position: absolute;
 }
