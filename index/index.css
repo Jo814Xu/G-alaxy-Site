@@ -2,7 +2,7 @@
 #sitetitle {
 	font-family: "Harlow Solid";
 	position: absolute;
-	color: goldenrod;
+	color: gold;
 	font-size: 72px;
 	z-index: 1;
 	left: 100px;
@@ -11,7 +11,7 @@
 
 #sitesubtitle {
 	font-family: "Harlow Solid";
-	color: white;
+	color: skyblue;
 	position: absolute;
 	z-index: 1;
 	left: 650px;

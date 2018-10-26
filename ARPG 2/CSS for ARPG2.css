@@ -2,7 +2,7 @@
 #sitetitle {
 	font-family: "Harlow Solid";
 	position: absolute;
-	color: goldenrod;
+	color:gold;
 	font-size: 72px;
 	z-index: 1;
 	left: 100px;
@@ -11,7 +11,7 @@
 
 #sitesubtitle {
 	font-family: "Harlow Solid";
-	color: white;
+	color:skyblue;
 	position: absolute;
 	z-index: 1;
 	left: 650px;
@@ -32,7 +32,7 @@ header {
 ul.a {
 list-style-type: none;
 overflow: hidden;
-background-color:gray;
+background-color:black;
 }
 
 .dropdown {
@@ -41,10 +41,11 @@ float: center;
 
 li a, .dropbtn {
 display: inline-block;
-color: white;
+color: whitesmoke;
 text-align: center;
-padding: 14px 16px;
+padding: 16px 18px;
 text-decoration: none;
+font-size: 20px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -58,7 +59,7 @@ display: inline-block;
 .dropdown-content {
 display: none;
 position: absolute;
-background-color: #f9f9f9;
+background-color:darkslategray;
 min-width: 160px;
 box-shadow: 0px 8px 16px 0px rgb(0,0,0);
 }
@@ -114,6 +115,25 @@ h2, h3 {
 	font-size: 30px;
 }
 
-p1, p2, p3, p5 {
+p1, p2, p3, p4, p5 {
 	font-size: 26px;
+}
+
+#darksouls {
+	float: right;
+	margin: 5px 0px 10px 10px;
+}
+
+.link {
+	font-size: 20px
+}
+
+#journey1 {
+	float: left;
+	margin: 5px 10px 10px 0px;
+}
+
+#journey2 {
+	float: right;
+	margin: 5px 0px 10px 10px;
 }
