@@ -45,10 +45,25 @@ p {
 	font-size: 30px;
 }
 
-.transformations{
+.featured{
 	position: relative;
-	bottom: 580px;
 	left: 280px;
+	bottom: 560px;
+}
+
+.transformations{
+	width: 100%;
+	
+	border-radius: 20px;
+	opacity: 0.65;
+	
+	transition: opacity 0.5s, transform 0.5s, box-shadow 0.5s;
+}
+
+.transformations:hover {
+    opacity: 1.0;
+	transform: scale(1.05);
+	box-shadow: 5px 5px 5px cyan;
 }
 
 footer{
