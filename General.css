@@ -137,3 +137,11 @@ p1, p2, p3, p4, p5 {
 	float: right;
 	margin: 5px 0px 10px 10px;
 }
+
+#fps {
+	font-size: 26px;
+}
+
+.moba {
+	font-size: 26px;
+}
