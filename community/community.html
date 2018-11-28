@@ -5,19 +5,21 @@
 		
 		<title>ARPG 2</title>
 		
-		<link rel="stylesheet" type="text/css" href="../General.css"/>
+		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
 	
-	</head>
+		<script src="../images/general.js"></script>
+	
+</head>
 
-	<body>
-		<header>
+	<body onresize="resize_title();" onload="resize_title();">
+		
+		<header id="header">
 			
 			<h1 id="sitetitle">G-alaxy</h1>
-			
-			<img src="../images/Galaxy.jpg" alt="galaxy" width="100%" height="400" id="imagegalaxy">
 		
 			<h2 id="sitesubtitle">The galaxy for video game players</h2>
-			
+		</header>
+		
 			<nav>
 				<ul class="a">
 		  			<li class="dropdown">
@@ -80,9 +82,7 @@
 							<a href="../about/about.html">About us</a>
 						</li>
 			</ul>
-				</nav>
-			
-		</header>
+		</nav>
 	
 	<section align="center">
 		<h2 style="color:seagreen"> Sign up </h2>
@@ -91,15 +91,21 @@
 	</section><br/><br/>
 	
 	<section align="center" class="s1">
-		<form>
-			<fieldset style="background-color:cadetblue ">
-				<legend> User Information </legend><br/>
+		<script>
+			function appendNames() {
+				var firstname = document.forms["myForm"]["fname"].value;
+				var lastname = document.forms["myForm"]["lname"].value;
+				window.confirm(firstname+" "+lastname+" "+"Successfully");
+			}
+		</script>
+		
+	
+		<fieldset style="background-color:cadetblue ">
+			<legend> User Information </legend><br/>
 				
-				First name:<br/>
-				<input type="text" name="firstname"/><br/>
-			
-				Last name:<br/>
-				<input type="text" name="lastname"/><br/>
+			<form name="myForm" onSubmit="appendNames()" method="post">
+                   First Name <input type="text" name="fname" /> <br /><br/>
+					Last Name <input type="text" name="lname" /> <br /><br/>
 				
 				Email address:<br/>
 				<input type="text" name="email"/><br/><br/><br/>
@@ -176,11 +182,10 @@
 							<option value="Indie"/>
 						</datalist><br/><br/>
 				
-				<button type="button" onclick="alert('You have been signed up !')">
-					Submit
-				</button>
-			</fieldset>
-		</form>
+				<input type="submit" value="Submit" /> 
+			</form>
+		</fieldset>
+	
 		</section>
 	
 		<iframe src="https://www.bilibili.com/video/av9931769/" width="800" height="500"> </iframe><br/>
@@ -263,8 +268,38 @@
 				
 				<input type="submit" value="Submit"/>
 			</form>
-			
-		</section>
+		</section><br/>
+		
+		
+	<h2 align="center" style="color: crimson">Gallery of Video Games</h2>
+	
+	<!-- Image Gallery -->
+	<div class="gallery">
+		<figure onclick="show_popup("../index/image/callofduty_icon.jpg", "callofduty")">
+			<img class="wide" src="../index/image/callofduty_icon.jpg" alt="callofduty" title="call of duty" />
+		</figure>
+		
+		<figure onclick="show_popup("../index/image/csgo_icon.jpg", "CS:GO");">
+			<img class="tall" src="../index/image/csgo_icon.jpg" alt="CS:GO" title="CS:GO" />
+		</figure>
+		
+		<figure onclick="show_popup("../index/image/divinity_icon.jpg", "divinity");">
+			<img class="tall" src="../index/image/divinity_icon.jpg" alt="divinity" title="Divinity" />
+		</figure>
+		
+		<figure onclick='show_popup("../index/image/dota2_icon.jpg", "dota2");'>
+			<img class="tall" src="../index/image/dota2_icon.jpg" alt="dota2" title="Dota 2" />
+		</figure>
+		
+		<figure onclick='show_popup("../index/image/journey.jpg", "journey");'>
+			<img class="wide" src="../index/image/journey.jpg" alt="journey" title="Journey" />
+		</figure>
+		
+		<figure onclick='show_popup("../index/image/overwatch_icon.jpg", "overwatch");'>
+			<img class="wide" src="../index/image/overwatch_icon.jpg" alt="overwatch" title="Overwatch" />
+		</figure>
+	</div>
+
 
 </body>
 </html>

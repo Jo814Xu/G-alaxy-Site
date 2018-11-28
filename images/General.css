@@ -15,18 +15,28 @@
 	position: absolute;
 	z-index: 1;
 	left: 650px;
-    top: 260px;
+    top: 160px;
 }
 
+body {
+	display: block;
+	margin: auto;
+	max-width: 1900px;
+	box-sizing: border-box;
+	padding: 1em;
+}
 
+#header
+{
+	background-image: url("Galaxy.jpg");
+	background-size: 100% auto;
+	background-position: center;
+	padding: 10em 5em;
+	transition: background-image 4s;
+}
 
-header {
+nav {
 	text-align: center;
-}
-
-#imagegalaxy {
-	position: relative;
-	
 }
 
 ul.a {
@@ -145,3 +155,77 @@ p1, p2, p3, p4, p5 {
 .moba {
 	font-size: 26px;
 }
+
+.gallery figure
+{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+
+.gallery figure img.tall
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.gallery figure img.wide
+{
+	position: absolute;
+	top: 0px;
+	left: -15%;
+	height: 100%;
+	width: auto;
+}
+
+.gallery figure:hover
+{
+	transform: rotate(5deg);
+	box-shadow: 1px 1px 50px yellow;
+}
+
+/*----------------------*/
+
+.popup_plane
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	opacity: 1;
+	transition: opacity 0.5s;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow-y: scroll;
+}
+
+.popup_plane figure
+{
+	display: block;
+	background-color: white;
+	border-radius: 1em;
+	margin: 1em auto;
+	padding: 1em;
+	max-width: 500px;
+}
+
+.popup_plane figure img
+{
+	max-width: 100%;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	margin-bottom: 0.5em;
+}
+
+.popup_plane figcaption
+{	
+	text-align: center;
+}
+
