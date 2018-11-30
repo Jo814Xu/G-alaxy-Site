@@ -1,6 +1,6 @@
 function bg_Galaxy ()
 {
-	document.getElementById("header").style.backgroundImage= "url('Galaxy')";
+	document.getElementById("header").style.backgroundImage= "url('Galaxy.jpg')";
 	setTimeout(bg_a, 4000);
 }
 

@@ -5,7 +5,35 @@
 		
 		<title>ARPG 2</title>
 		
-		<link rel="stylesheet" type="text/css" href="../General.css"/>
+		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".flip").click(function(){
+    			$("p1").slideToggle("slow");
+  				});
+			});
+			
+			$(document).ready(function(){
+  				$("#hide").click(function(){
+  				$("p2").hide();
+  				});
+  				$("#show").click(function(){
+  				$("p2").show();
+				});
+			});
+			
+			$(document).ready(function(){
+  				$("#hide").click(function(){
+  				$("p3").hide();
+  				});
+  				$("#show").click(function(){
+  				$("p3").show();
+				});
+			});
+		</script>
 	
 	</head>
 
@@ -92,6 +120,9 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An independent video game, or an indie game, is a video game that is often created without the financial support of a publisher, although some games funded by a publisher are still considered "indie". Indie games often focus on innovation and rely on digital Indie gaming saw a rise in mainstream popularity in the latter half of the 2000s, primarily due to new online distribution methods and development tools. Some indie games have been very successful financially, such as Undertale, Braid, World of Goo, and Minecraft.<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Independent game developers, team members are generally less than 10 people, the most common is a small team of only one or two people, the workplace is very casual. Unlike commercial games, developing indie games doesn't necessarily give developers revenue. Only a few independent games can be sold using physical channels, and most rely on lower cost digital download modes.
 			</blockquote>
 		</p1><br/>
+		
+		<p class="flip"> Click Me </p>
+		
 	</section>
 	
 	<h2 align="center" style="color:darkgreen">Stardew Valley</h2>
@@ -108,12 +139,34 @@
 			</blockquote>
 		</p3><br/>
 		
+		<button id="hide" type="button">Hide</button>
+		
+		<button id="show" type="button">Show</button><br/><br/>
+		
 		<a class="link" href="https://stardewvalley.net/">Official website</a><br/>
 		
 		<a class="link" href="https://stardewvalleywiki.com/">Wiki can help new players</a><br/><br/>
 		
-		<img src="images for indie/stardewvalley.jpg" width="700" height="400" alt="stardew">
-	</section><br/><br/>
+		<script> 
+			$(document).ready(function(){
+  				$("button").click(function(){
+    				$("#000").animate({left:'700px'});
+  				});
+			});
+			
+			$(document).ready(function(){
+  				$("#0b").click(function(){
+    				$("#000").animate({left:'0px'});
+  				});
+			});
+		</script>
+		
+		<img id="000" src="images for indie/stardewvalley.jpg" width="700" height="450" alt="stardew" style="position: relative"><br/>
+		
+		<button type="button">Start</button>
+		
+		<button type="button" id="0b">Back</button>
+	</section><br/><br/><br/>
 	
 	<h2 id="journey" align="center" style="color: darkgoldenrod">Journey</h2>
 	
@@ -140,6 +193,15 @@
 	<h2 align="center" style="color:crimson">Other Indie games recommended</h2>
 	
 	<section class="s1">
+		
+		<script type="text/javascript">	
+		$(document).ready(function(){
+			$("table").mousedown(function(){
+			$("tr:odd").css("background-color", "skyblue");
+			});
+		});
+		</script>
+			
 		<table border="1" bordercolor="#646464">
 			<tr>
 				<th> Game name: </th>

@@ -5,7 +5,9 @@
 		
 		<title>ARPG 2</title>
 		
-		<link rel="stylesheet" type="text/css" href="../General.css"/>
+		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	
 	</head>
 
@@ -87,6 +89,11 @@
 	<h2 align="center" style="color: darkslategray">MMORPG</h2>
 	
 	<section align="left">
+		<script type="text/javascript">
+			$(document).ready.(function(){
+				
+			})
+		</script>
 		<p1>
 			<blockquote>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The birth of mmorpg allows players to experience a completely different way of playing games. In previous RPGs or other games, players can only choose to kill opponents or other players. But in mmorpg, the multiplayer team Raiders copy became the new model. The assignment of teammates and teams has become crucial, and single-handedness has become a niche. Mmorpg makes the game one of the social tools, and many like-minded friends know each other by it.
@@ -106,7 +113,25 @@
 		
 		<a class="link" href="https://www.blizzard.com"> Official website link </a>
 		
-		<img src="images for mmorpg/World-of-Warcraft-Trivia.jpg" alt="warcraft" width="700" height="300">
+		<script> 
+			$(document).ready(function(){
+  				$("button").click(function(){
+    				$("#111").animate({left:'700px'});
+  				});
+			});
+			
+			$(document).ready(function(){
+  				$("#OC").click(function(){
+    				$("#111").animate({left:'0px'});
+  				});
+			});
+		</script>
+		
+		<img id="111" src="images for mmorpg/World-of-Warcraft-Trivia.jpg" alt="warcraft" width="700" height="300" style="position: relative"><br/>
+		
+		<button type="button">Go</button>
+		
+		<button id="OC" type="button">Back</button>
 		
 		<h2 style="color: darkcyan"> The Background of Warcraft </h2>
 		
@@ -126,6 +151,17 @@
 	</section><br/><br/>
 	
 	<section align="center" class="s1">
+		<script type="text/javascript">
+			$(document).ready(function(){
+  				$("input").focus(function(){
+    				$("input").css("background-color","#FFFFCC");
+				});
+  				$("input").blur(function(){
+					$("input").css("background-color","#D6D6FF");
+  				});
+			});
+		</script>
+		
 		<form>
 			<fieldset style="background-color:burlywood ">
 				<legend> Create the Character </legend><br/>
@@ -208,7 +244,7 @@
 				</button>&nbsp;&nbsp;&nbsp;&nbsp;
 				
 				&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" onclick="alert('Your character would be cancelled')">
-					<cancel>	</cancel>
+				Cancel</button>
 				</button><br/><br/>
 			</fieldset>
 		</form>

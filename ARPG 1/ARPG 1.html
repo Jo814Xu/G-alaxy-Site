@@ -5,7 +5,26 @@
 		
 		<title>ARPG 1</title>
 		
-		<link rel="stylesheet" type="text/css" href="../General.css"/>
+		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".flip").click(function(){
+    			$("p1").slideToggle("slow");
+  				});
+			});
+			
+			$(document).ready(function(){
+  				$("#hide").click(function(){
+  				$("p2").hide();
+  				});
+  				$("#show").click(function(){
+  				$("p2").show();
+				});
+			});
+		</script>
 	
 </head>
 
@@ -94,8 +113,10 @@
 			<blockquote>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Japanese video game development company founded in November 1986. After 1990, it started designing of video games.The company is known primarily outside Japan for being the developers of the Armored Core and Souls series, as well as Bloodborne. In 2009, they released Demon's Souls for the PlayStation 3, which brought them international exposure. Its spiritual successor, Dark Souls, was released in 2011. In March 2014, Dark Souls II, was released, while Dark Souls III was released in 2016. A title inspired by the Souls series, Bloodborne, was released in March 2015. The Souls series, along with Bloodborne, received widespread critical acclaim, as well as strong sales domestically and internationally. They have also received a number of awards, primarily those for the role-playing genre, including multiple "RPG of the Year" and Game of the Year awards. Since release, Dark Souls and Bloodborne have been cited by many publications to be among the greatest games of all time. In April 2016, FromSoftware revealed that they were working on a new intellectual property, as well as stating their intent to return to the Armored Core series. Two games, the PlayStation VR exclusive Déraciné and the multiplatform Sekiro: Shadows Die Twice, were announced at E3 2018. By the way, because Demon's Souls is too old and supported by PS3, we just introduce other four games.
 			</blockquote>
-		</p1><br/><br/>
-	</section>
+		</p1>
+		
+		<p class="flip">Clicks Me to slide.</p>
+	</section><br/>
 		
 		<h3 style="color: crimson"> The order of Souls series </h3>
 		
@@ -139,7 +160,11 @@
 			<blockquote>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dark Souls inherits the dark fantasy style and spirit of "Demon's Souls", "exploring the tension of the maze", "the horror of encountering the enemy", "the feeling of joy newly discovered" until the "survival to the final sense of achievement" "For the sake of appeal, it is a difficult hard action game. NBGI also announced a promotional video of the game, showing us the various ways to die in the game. The difficulty are both from killing Boss and the huge complex map. Moreover, before you meet Queen of Sunlight Gwynevere, you cannot use bornfires to travel between places. Those places are very far away from each other, and you must walk back Firelink Shrine by yourself if you lost.<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The main story of the game tells the decline of the age of fire established by the Protoss from the perspective of people undead who live at the bottom of society. Fire brings the distinction between life and death, light and darkness, and brings power. But the initial fire will eventually go out, and the power of the Protoss will also disappear. In order to keep the fire burning, the Protoss did everything. Heroes and kings go on and on to try to save the tragic epic of this era.
 			</blockquote>
-		</p2><br/><br/>
+		</p2><br/>
+		
+		<button id="hide" type="button">Hide</button>
+		
+		<button id="show" type="button">Show</button>
 	
 	</section>
 	
@@ -184,6 +209,17 @@
 	
 	
 	<section align="center">
+		<script type="text/javascript">
+			$(document).ready(function(){
+  				$("input").focus(function(){
+    				$("input").css("background-color","#FFFFCC");
+				});
+  				$("input").blur(function(){
+					$("input").css("background-color","#D6D6FF");
+  				});
+			});
+		</script>
+		
 		<h2 style="color:seagreen"> The Model of character </h2>
 		
 			<p3> The choices have been shown are recommended to new players </p3>

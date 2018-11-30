@@ -5,8 +5,19 @@
 		
 		<title>ARPG 2</title>
 		
-		<link rel="stylesheet" type="text/css" href="../General.css"/>
+		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
 	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script type="text/javascript">	
+		$(document).ready(function(){
+			$("button").click(function(){
+			$("tr:even").css("background-color", "yellow");
+			});
+		}); 
+	
+	</script>
+			
 	</head>
 
 	<body>
@@ -85,18 +96,34 @@
 		</header>
 
 		<section align="center" class="b1">
+			
 			<h2 style="color:darkred"> Bloodborne </h2>
 		
-				<h3> -- 2015 </h3>
+				<h3> -- 2015 (Double click me) </h3>
 		
 		</section>
 		<section align="justify">
 			<img src="image for arpg2/bloodborne.jpg" alt="bloodborne" width="250" height="400" id="bloodborne1">
 			
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("h3").dblclick(function(){
+						$("p2").fadeOut("slow");
+					})
+				})
+				
+				$(document).ready(function(){
+					$("h3").dblclick(function(){
+						$("p2").fadeIn("slow");
+					})
+				})
+			</script>
+			
 			<div>
 			 <p2 class="s1"> 
 				 The ancient town of the mountainous region, Yharnam, is a cursed place. The unique local diseases of the plague of monsters have been circulating since ancient times. As in the name of a disease, a patient suffering from this condition will become a beast that loses his mind as a disease name. However, as in the cursed ancient city, it is also said that there are medical techniques that can cure the root of the disease. Most patients with this disease travel long distances to Yharnam and seek ways to rescue them.The player acted a foreign adventurer who came to Yharnam for medical treatment. After receiving blood transfusion under the guidance of an unknown mysterious man, he fell into a dream full of monsters, and then awakened in a strange hospital. At the beginning, the player does not have any items such as props and weapons. It is equal to the state of unarmed and empty fists to explore in the hospital. Soon, the werewolf that I saw in my dreams appeared in front of the player's eyes, and the game was maliciously designed to "make you die once at the beginning" (of course, the player can be alive if he has a very perfect game skills). An unarmed, attacking protagonist who can only inflict 2 to 3 damage will be killed by the werewolf for about two times.The player who died will be sent to the Hunter's Dream, which is the main supply point in this game, and then the death will be sent back here. Players can purchase items and equipment at the Bath Messenger and the ability to upgrade their characters at the inanimate Doll.
-			 </p2><br/><br/>
+			 </p2><br/>
+				
 			</div>
 	
 		</section><br/><br/>
@@ -104,7 +131,8 @@
 		<section align="center" class="b1">
 			<h2 style="color:darkred"> DLC: The Old Hunters </h2>
 		
-			<img src="image for arpg2/theoldhunters.jpg" alt="oldhunter" width="700" height="350">
+			<img id="oldhunter" src="image for arpg2/theoldhunters.jpg" alt="oldhunter" width="700" height="350">
+			
 		</section><br/><br/>
 	
 		<section align="center" class="b1">
@@ -114,6 +142,23 @@
 		</section><br/><br/>
 	
 		<section align="left" class="s1">
+			
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$(".small").mouseenter(function(){
+					$("li:even").css("background-color", "red");
+					});
+				}); 
+				
+				$(document).ready(function(){
+								  
+					$(".small").mouseleave(function(){
+						$(".ul:even").css("background-color","white");
+					});			  
+				});
+	
+			</script>
+			
 			<ul class="u1">
 				<li> <em>Yharnam</em> </li>
 					<ul class="small">
@@ -236,7 +281,8 @@
 				
 					<td><blockquote>Weeknesses: Bolt, Fire, Arcane </blockquote></td>
 				</tr>
-			</table>
+			</table><br/>
+		
 		</section><br/>
 	
 		<img src="image for arpg2/bloodborne2.jpg" alt="bloodborne2" width="700" height="350"><br/><br/>
@@ -323,7 +369,9 @@
 				
 					<td> Become the new Kin </td>
 				</tr>
-			</table>
+			</table><br/>
+			
+			<button type="button">Change Color</button>
 			  
 		</section>
 	</body>

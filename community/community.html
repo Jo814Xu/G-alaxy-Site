@@ -7,6 +7,8 @@
 		
 		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
 	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
 		<script src="../images/community.js"></script>
 	
 </head>
@@ -85,18 +87,29 @@
 		</nav>
 	
 	<section align="center">
+		
 		<h2 style="color:seagreen"> Sign up </h2>
 		
 			<p3> It is free and always be ! </p3>
 	</section><br/><br/>
 	
 	<section align="center" class="s1">
-		<script>
+		<script type="text/javascript">
 			function appendNames() {
 				var firstname = document.forms["myForm"]["fname"].value;
 				var lastname = document.forms["myForm"]["lname"].value;
 				window.confirm(firstname+" "+lastname+" "+"Successfully");
 			}
+			
+			$(document).ready(function(){
+  				$("input").focus(function(){
+					$("input").css("background-color","#FFFFCC");
+  				});
+				$("input").blur(function(){
+    				$("input").css("background-color","#D6D6FF");
+  				});
+			});
+
 		</script>
 		
 	

@@ -5,7 +5,7 @@
 		
 		<title>ARPG 2</title>
 		
-		<link rel="stylesheet" type="text/css" href="../General.css"/>
+		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
 	
 	</head>
 
@@ -110,6 +110,17 @@
 	</section><br/><br/>
 	
 	<section align="center" class="s1">
+		<script type="text/javascript">
+			$(document).ready(function(){
+  				$("input").focus(function(){
+    				$("input").css("background-color","#FFFFCC");
+				});
+  				$("input").blur(function(){
+					$("input").css("background-color","#D6D6FF");
+  				});
+			});
+		</script>
+		
 		<form>
 			<fieldset style="background-color:darkseagreen">
 				<legend> Create the Character </legend><br/>
