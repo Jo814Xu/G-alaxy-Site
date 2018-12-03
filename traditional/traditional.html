@@ -7,6 +7,8 @@
 		
 		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
 	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
 	</head>
 
 	<body>
@@ -61,7 +63,7 @@
 								</li>
 							</ul>
 							<ul>
-								<li><a href="../starvalley/starvalley.html">Indie</a></li>
+								<li><a href="../Indie/starvalley.html">Indie</a></li>
 							</ul>
 						</div>
 		  			</li>
@@ -85,10 +87,31 @@
 		</header>
 	
 	<section>
+		
+	<script type="text/javascript">
+			$(document).ready(function(){
+				$(".flip").click(function(){
+    			$("p1").slideToggle("slow");
+  				});
+			});
+			
+			$(document).ready(function(){
+  				$("#hide").click(function(){
+  				$("p2").hide();
+  				});
+  				$("#show").click(function(){
+  				$("p2").show();
+				});
+			});
+	</script>
+		
 	<h2 align="center" style="color: mediumslateblue"> Traditional RPG </h2>
 	<p1>
 		<blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you ask, what is the most popular or most degraded video game in the last decade. The answer may only be the traditional (or plot) rpg. This rpg game is the product of the 1970s, the originator of all video games. Initially people developed it for remote trpg games with friends. The masterpieces of <em>Dragon and Dungeons</em>, <em>Magic Door Series</em> and <em>Endless Winter</em> have pushed the American rpg game to the peak. But that is already the last century. With the development of other e-sports forms, the traditional rpg has become time-consuming and labor-intensive in the hearts of players, and loneliness is awkward. Although the Japanese rpg still has some loyal players in the Asian region, but on a global scale, he can not save the overall decline. The two traditional rpgs and their sequels that we will introduce here are born in 2016 and 2017 respectively. They all got IGN's high scores and even exceeded the million sales. They are <em>Pillar of Eternal 2</em> and <em>The Divinity: original Sin 2</em>.We will focus on Dvinity more, because it adds some fashion and creative features into the game. Also, it is more popular than others.</blockquote>
-	</p1>
+	</p1><br/>
+		
+	<p class="flip">Clicks Me to slide.</p>
+		
 	</section>
 	
 	<section align="center">

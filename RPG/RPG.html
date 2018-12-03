@@ -5,7 +5,9 @@
 		
 		<title>ARPG 2</title>
 		
-		<link rel="stylesheet" type="text/css" href="../General.css"/>
+		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	
 	</head>
 
@@ -61,7 +63,7 @@
 								</li>
 							</ul>
 							<ul>
-								<li><a href="../starvalley/starvalley.html">Indie</a></li>
+								<li><a href="../Indie/starvalley.html">Indie</a></li>
 							</ul>
 						</div>
 		  			</li>
@@ -103,8 +105,25 @@
 	</section>
 	
 	<h3 align="center" style="color: darkolivegreen"> The differences between those four RPG games </h3>
+		
+	<script type="text/javascript">
+				$(document).ready(function(){
+					$(".s1").mouseenter(function(){
+					$("tr:even").css("background-color", "skyblue");
+					});
+				}); 
+				
+				$(document).ready(function(){
+								  
+					$(".s1").mouseleave(function(){
+						$("tr:odd").css("background-color","white");
+					});			  
+				});
+	
+	</script>
+		
 	<section align="left" class="s1">
-			<table border="1" style="width: auto">
+			<table border="1" style="width: auto" class="s1">
 				<tr>
 					<th> ARPG </th>
 				
