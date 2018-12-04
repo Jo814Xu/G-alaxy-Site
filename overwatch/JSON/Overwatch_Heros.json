@@ -1,0 +1,405 @@
+// JSON Document
+{"overwatchHeros":[
+	{
+		"nickName": "D.VA",
+		"realName": "Hana Song(송하나)",
+		 "age": 19,
+		 "nationality": "Korean",
+		 "occupation": ["Professional gamer (formerly)", "Mech Pilot", "Actress"],
+		 "base": "Busan, South Korea",
+		 "affiliation": "Mobile Exo-Force (South Korean Army)",
+		 "role": "Tank",
+		 "health(pilot)": 150,
+		 "health(Mech)": 400,
+		 "armor(Mech)": 200,
+		 "favoriteSaying": "I play to win."
+	},
+	
+	{
+		 "nickName": "Orisa",
+		 "status": "Active",
+		 "age": 0.08,
+		 "occupation": "Guardian Robot",
+		 "base": "Numbani",
+		 "relations": "Efi Oladele (creator)",
+		 "role": "Tank",
+		 "health": 200,
+		 "armor": 200,
+		 "favoriteSaying": "Your safety is my primary concern."
+	},
+	
+	{
+		 "nickName": "Reinhardt",
+		 "realName": "Reinhardt Wilhelm",
+		 "age": 61,
+		 "nationality": "German",
+		 "occupation": ["Crusader (formerly)", "Overwatch agent (formerly)", "Adventurer"],
+		 "base": "Stuttgart, Germany",
+		 "affiliation": ["German Armed Forces (formerly)", "Crusaders (formerly)", "Overwatch"],
+		 "relations": ["Balderich von Adler (mentor)", "Brigitte Lindholm (goddaughter)"],
+		 "role": "Tank",
+		 "health": 300,
+		 "armor": 200,
+		 "favoriteSaying": "Justice will be done."
+	},
+	
+	{
+		 "nickName": "Roadhog",
+		 "realName": "Mako Rutledge",
+		 "age": 48,
+		 "nationality": "Australian",
+		 "occupation": ["Enforcer (formerly)", "Bodyguard"],
+		 "base": ["Junkertown", "Australia (formerly)"],
+		 "affiliation": ["Australian Liberation Front (formerly)", "Junkers (formerly)"],
+		 "role": "Tank",
+		 "health": 600,
+		 "favoriteSaying": "I'm a one-man apocalypse."
+	},
+	
+	{
+		 "nickName": "Winston",
+		 "realName": "Winston",
+		 "age": 29,
+		 "occupation": ["Test subject (formerly)", "Scientist", "Adventurer"],
+		 "base": ["Horizon Lunar Colony (formerly) ", "Watchpoint: Gibraltar"],
+		 "affiliation": ["Lucheng Interstellar (formerly)", "Overwatch"],
+		 "role": "Tank",
+		 "health": 400,
+		 "armor": 100,
+		 "favoriteSaying": "Imagination is the essence of discovery."
+	},
+	
+	{
+		 "nickName": "Wrecking Ball",
+		 "realName": "Hammond",
+		 "age": 14,
+		 "occupation": ["Test subject (formerly)", "Mech pilot", "mechanic"],
+		 "base": ["Horizon Lunar Colony (formerly) ", "Junkertown (formerly)"],
+		 "affiliation": "Lucheng Interstellar (formerly)",
+		 "role": "Tank",
+		 "health": 500,
+		 "armor": 100,
+		 "favoriteSaying": "Do not anger the hamster."
+	},
+	
+	{
+		 "nickName": "Zarya",
+		 "realName": "Aleksandra Zaryanova (Александра Зарянова)",
+		 "age": 28,
+		 "nationality": "Russian",
+		 "occupation": "Soldier",
+		 "base": "Krasnoyarsk Front, Russia",
+		 "affiliation": ["Russian Defense Forces", "Volskaya Industries (temporarily)"],
+		 "role": "Tank",
+		 "health": 200,
+		 "shields": 200,
+		 "favoriteSaying": "Together we are strong."
+	},
+	
+	{
+		"nickName": "Ashe",
+		"realName": "Elizabeth Caledonia (Calamity) Ashe",
+		"status": "Active",
+		"age": 39,
+		"nationality": "American",
+		"occupation": ["Thief", "gang leader"],
+		"base": "Deadlock Gorge, Arizona, USA",
+		"affiliation": "Deadlock Gang",
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "My business, my rules."
+	},
+	
+	{
+		"nickName": "Bastion",
+		"realName": "SST Laboratories Siege Automaton E54",
+		"age": 30,
+		"occupation": ["Battle automaton (formerly), None"],
+		"base": ["Black Forest", "Germany (formerly)"],
+		"affiliation": "Torbjörn Lindholm",
+		"health": 200,
+		"armor": 100
+	},
+	
+	{
+		"nickName": "Doomfist",
+		"realName": "Akande Ogundimu",
+		"aliases": "The Successor",
+		"status": "Alive",
+		"age": 45,
+		"nationality": "Nigerian",
+		"occupation": ["Martial artist (formerly)", "Mercenary", "CEO"],
+		"base": "Oyo, Nigeria",
+		"affiliation": "Talon (council member)",
+		"relations": "Akinjide Adeyemi (mentor)",
+		"role": "Damage",
+		"health": 250,
+		"favoriteSaying": "Only through conflict do we evolve."
+	},
+	
+	{
+		"nickName": "Genji",
+		"realName": "Genji Shimada (島田源氏)",
+		"aliases": "Sparrow",
+		"age": 35,
+		"nationality": "Japanese",
+		"occupation": "Adventurer",
+		"base": ["Hanamura, Japan (formerly)", "Shambali Monastery, Nepal"],
+		"affiliation": ["Shimada Clan (formerly)", "Overwatch (formerly)", "Blackwatch (formerly)"],
+		"relations": ["Sojiro Shimada (father), Hanzo Shimada (older brother)"],
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "Even if I sacrifice my body, I will never sacrifice my honor."
+	},
+	
+	{
+		"nickName": "Hanzo",
+		"realName": "Hanzo Shimada (島田半蔵)",
+		"age": 38,
+		"nationality": "Japanese",
+		"occupation": ["Mercenary", "Assassin"],
+		"base": "Hanamura, Japan (formerly)",
+		"affiliation": "Shimada Clan (formerly)",
+		"relations": ["Sojiro Shimada (father), Genji Shimada (younger brother)"],
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "With every death comes honor. With honor, redemption."
+	},
+	
+	{
+		"nickName": "Junkrat",
+		"realName": "Jamison Fawkes",
+		"age": 25,
+		"nationality": "Australian",
+		"occupation": ["Anarchist", "Thief", "Demolitionist", "Mercenary", "Scavenger"],
+		"base": ["Junkertown", "Australia (formerly)"],
+		"affiliation": "Junkers (formerly)",
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "It's a perfect day for some mayhem."
+	},
+	
+	{
+		"nickName": "McCree",
+		"realName": "Jesse McCree",
+		"age": 37,
+		"nationality": "American",
+		"occupation": "Bounty Hunter",
+		"base": "Santa Fe, New Mexico, USA",
+		"affiliation": ["Deadlock Gang (formerly)", "Blackwatch (formerly)"],
+		"relations": "Ashe (Former Gang Member)",
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "Justice ain't gonna dispense itself."
+	},
+	
+	{
+		"nickName": "Mei",
+		"realName": "Mei-Ling Zhou (周美灵)",
+		"age": [31, 40],
+		"nationality": "Chinese",
+		"occupation": ["Climatologist", "Adventurer"],
+		"base": "Xi’an, China (formerly)",
+		"affiliation": ["Overwatch", "Atlas News"],
+		"role": "Damage",
+		"health": 250,
+		"favoriteSaying": "Our world is worth fighting for."
+	},
+	
+	{
+		"nickName": "Pharah",
+		"realName": "Fareeha Amari",
+		"age": 32,
+		"nationality": "Egyptian",
+		"occupation": "Security Chief",
+		"base": "Giza, Egypt",
+		"affiliation": ["Egyptian Army (formerly)", "Helix Security International"],
+		"relations": ["Ana Amari (mother)", "Sam (father)"],
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "I will protect the innocent."
+	},
+	
+	{
+		"nickName": "Reaper",
+		"realName": "Gabriel Reyes",
+		"age": 58,
+		"nationality": "American",
+		"occupation": "Mercenary",
+		"base": ["Los Angeles, California, United States (birth place)", "Unknown"],
+		"affiliation": ["United States military (formerly)", "Overwatch (formerly)", "Blackwatch (formerly)", "Talon(council member)"],
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "Death walks among you."
+	},
+	
+	{
+		"nickName": "Soldier: 76",
+		"realName": "John Francis (Jack) Morrison",
+		"age": "Unknown",
+		"nationality": "American",
+		"occupation": ["Soldier (formerly)", "Overwatch commander (formerly)", "Vigilante"],
+		"base": ["Bloomington, Indiana", "United States (birth place)", "Unknown"],
+		"affiliation": ["United States military (formerly)", "Overwatch (formerly)"],
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "We're all soldiers now."
+	},
+	
+	{
+		"nickName": "Sombra",
+		"realName": "Olivia Colomar",
+		"status": "Alive",
+		"age": 30,
+		"nationality": "Mexican",
+		"occupation": "Hacker",
+		"base": "Dorado, Mexico",
+		"affiliation": ["Los Muertos (formerly)", "Talon (currently)"],
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "Everything can be hacked... and everyone."
+	},
+	
+	{
+		"nickName": "Symmetra",
+		"realName": "Satya Vaswani (सत्य वासवानी)",
+		"age": 28,
+		"nationality": "Indian",
+		"occupation": "Architech",
+		"base": "Utopaea, India",
+		"affiliation": "Vishkar Corporation",
+		"role": "Damage",
+		"health": 100,
+		"shields": 100,
+		"favoriteSaying": "The true enemy of humanity is disorder."
+	},
+	
+	{
+		"nickName": "Torbjörn",
+		"realName": "Torbjörn Lindholm",
+		"age": 57,
+		"nationality": "Swedish",
+		"occupation": ["Weapons designer", "Chief engineer (formerly)"],
+		"base": "Gothenburg, Sweden",
+		"affiliation": ["SST Laboratories (formerly)", "Ironclad Guild (formerly)", "Overwatch (formerly)"],
+		"relations": ["Ingrid Lindholm (wife)", "Brigitte Lindholm (youngest daughter)", "Unnamed children and grandchildren"],
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "Build 'em up, Break 'em down."
+	},
+	
+	{
+		"nickName": "Tracer",
+		"realName": "Lena Oxton",
+		"age": 26,
+		"nationality": "British",
+		"occupation": ["Adventurer", "Pilot (Formerly)", "Overwatch Agent (Formerly)"],
+		"base": "London, United Kingdom",
+		"affiliation": "Overwatch",
+		"relations": "Emily (girlfriend)",
+		"role": "Damage",
+		"health": 150,
+		"favoriteSaying": "Cheers, love! The cavalry's here!"
+	},
+	
+	{
+		"nickName": "Widowmaker",
+		"realName": "Amélie Lacroix (née Guillard)",
+		"age": 33,
+		"nationality": "French",
+		"occupation": ["Ballet dancer (formerly)", "Assassin"],
+		"base": "Annecy, France",
+		"affiliation": "Talon",
+		"relations": "Gérard Lacroix (husband)",
+		"role": "Damage",
+		"health": 200,
+		"favoriteSaying": "One shot, one kill."
+	},
+	
+	{
+		"nickName": "Ana",
+		"realName": "Ana Amari (أنا عماري)",
+		"aliases": ["Horus", "Shrike"],
+		"status": "Active",
+		"age": 60,
+		"nationality": "Egyptian",
+		"occupation": ["Sharpshooter (formerly)", "Overwatch second-in-command, captain (formerly)", "Bounty hunter"],
+		"base": "Cairo, Egypt",
+		"affiliation": ["Egyptian security forces (formerly)", "Overwatch (formerly)"],
+		"relations": ["Sam (husband/partner)", "Fareeha Amari (daughter)"],
+		"role": "Support",
+		"health": 200,
+		"favoriteSaying": "Never stop fighting for what you believe in."
+	},
+	
+	{
+		"nickName": "Brigitte",
+		"realName": "Brigitte Lindholm",
+		"age": 23,
+		"nationality": "Swedish",
+		"occupation": ["Mechanical engineer", "Adventurer", "Squire"],
+		"base": "Gothenburg, Sweden (formerly)",
+		"affiliation": "Reinhardt Wilhelm",
+		"relations": ["Torbjörn Lindholm (father)", "Ingrid Lindholm (mother)", "Reinhardt Wilhelm (godfather)", "Unnamed siblings, nieces, and nephews"],
+		"role": "Support",
+		"health": 200,
+		"armor": 50,
+		"favoriteSaying": "I will prove myself!"
+	},
+	
+	{
+		"nickName": "Lúcio",
+		"realName": "Lúcio Correia dos Santos",
+		"age": 26,
+		"nationality": "Brazilian",
+		"occupation": ["DJ", "Freedom Fighter"],
+		"base": "Rio de Janeiro, Brazil",
+		"role": "Support",
+		"health": 200,
+		"favoriteSaying": "Come on, let's bring it together!"
+	},
+	
+	{
+		"nickName": "Mercy",
+		"realName": "Angela Ziegler",
+		"age": 37,
+		"nationality": "Swiss",
+		"occupation": ["Field Medic", "First Responder"],
+		"base": "Zürich, Switzerland",
+		"affiliation": "Overwatch (formerly)",
+		"relations": "Unnamed parents (deceased)",
+		"role": "Support",
+		"health": 200,
+		"favoriteSaying": "I'll be watching over you."
+	},
+	
+	{
+		"nickName": "Moira",
+		"realName": "Moira O'Deorain",
+		"status": "Active",
+		"age": 48,
+		"nationality": "Irish",
+		"occupation": ["Geneticist", "Minister of Genetics"],
+		"base": ["Dublin, Ireland", "Oasis, Iraq"],
+		"affiliation": ["Blackwatch (formerly)", "Talon (council member)"],
+		"relations": "Unnamed parents (deceased)",
+		"role": "Support",
+		"health": 200,
+		"favoriteSaying": "Science will reveal the truth."
+	},
+	
+	{
+		"nickName": "Zenyatta",
+		"realName": "Tekhartha Zenyatta",
+		"age": 20,
+		"nationality": "Irish",
+		"occupation": ["Wandering Guru", "Adventurer"],
+		"base": ["Shambali Monastery", "Nepal (formerly)"],
+		"affiliation": "Shambali (formerly)",
+		"role": "Support",
+		"health": 50,
+		"shields": 150,
+		"favoriteSaying": "True self is without form."
+	},
+]
+};
