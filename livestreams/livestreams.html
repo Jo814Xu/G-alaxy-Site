@@ -3,10 +3,33 @@
 <head>
 		<meta charset="utf-8" />
 		
-		<title>ARPG 1</title>
+		<title>Livestreams</title>
 		
 		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
 	
+	
+		<script>
+			var i=0, urls = ["https://player.twitch.tv/?channel=dogdog",
+						"https://player.twitch.tv/?channel=arteezy",
+						"https://player.twitch.tv/?channel=overwatchcontenders",
+						"https://player.twitch.tv/?channel=yourprincess",
+						"https://player.twitch.tv/?channel=xqcow"
+						];
+			function mySlide(param)
+			{
+				
+              if(param == "next")
+              {
+                  i++;
+                  if(i == urls.length){ i = urls.length - 1; }
+              }else{
+                  i--;
+                  if(i < 0){ i = 0; }
+              }
+              
+              document.getElementById("slide").setAttribute("src",urls[i]);
+          	}
+		</script>
 </head>
 
 <body>
@@ -83,10 +106,11 @@
 				</nav>
 			
 		</header>
-	
-	<section>
-		<h2 align="center" style="color: mediumslateblue">Live Streams</h2>
-		<iframe src="https://www.twitch.tv/"></iframe>
-	</section>
+		
+		<div>
+            <iframe src="https://player.twitch.tv/?channel=dogdog" id="slide" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+            <button onclick="mySlide('prev');"> < </button>
+            <button onclick="mySlide('next');"> > </button>
+        </div>
 </body>
 </html>
