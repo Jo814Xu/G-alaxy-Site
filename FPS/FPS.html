@@ -7,6 +7,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="../images/General.css"/>
 	
+		<script type = "text/javascript" src="FPS.js"></script>
 </head>
 
 <body>
@@ -108,23 +109,26 @@
 		<section id="fps" align="center">
 		Crosshair color:<br />
 			
-		<input type="color"><br />
+		<input type="color" id="selector_color"><br />
 			
 		Crosshair length:<br />
 			
-		<input type="range"><br />
+		<input type="range" name="length" id="range_length" value="1" min="1" max="100" oninput="range_length_disp.value = range_length.value">
+		<output  id="range_length_disp"></output><br />
 			
 		Crosshair gap:<br />
 			
-		<input type="range"><br/>
+		<input type="range" name="gap" id="range_gap" value="1" min="1" max="100" oninput="range_gap_disp.value = range_gap.value">
+		<output  id="range_gap_disp"></output><br />
 			
 		Crosshair thickness:<br />
 			
-		<input type="range"><br/>
+		<input type="range" name="thickness" id="range_thickness" value="1" min="1" max="100" oninput="range_thickness_disp.value = range_thickness.value">
+		<output  id="range_thickness_disp"></output><br />
 			
 		<br />
 			
-		<input type="submit" value="Generate">
+		<input type="submit" id="generate_Crosshair" value="Generate" onClick="draw()">
 			
 		<br />
 	
@@ -136,4 +140,7 @@
 		</section>
 	</section>
 </body>
+	
+
+
 </html>
