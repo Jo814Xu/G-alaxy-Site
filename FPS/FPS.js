@@ -11,22 +11,20 @@ function draw ()
 	
 	var canvas = document.getElementById("crosshairCanvas");
 	
-	var ctx = canvas.getContext("2d");
+    var ctx = canvas.getContext('2d');
 	
 	//top
-	ctx.fillText("Why is there nothing?", 100, 100, 200)
 	ctx.fillStyle = color;
 	
-	ctx.fillRect = (100, 100 - gap, thickness, length);
+	ctx.fillRect(100, 100 - gap, thickness, -length);
 	
 	//right
-	ctx.fillRect = (100 + gap, 100, length, thickness);
+	ctx.fillRect(100 + thickness + gap, 100, length, thickness);
 	
 	//bottom
-	ctx.fillRect = (100, 100 + gap, thickness, length);
+	ctx.fillRect(100, 100 + thickness + gap, thickness, length);
 	
 	//left
-	ctx.fillRect = (100 - gap, 100, length, thickness);
+	ctx.fillRect(100 - gap, 100, -length, thickness);
 	
-	alert("Generated")
 }
