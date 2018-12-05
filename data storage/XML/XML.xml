@@ -1,7 +1,7 @@
-<?xml version=”1.0” encoding=”utf-8”?>
+<?xml version=â€1.0â€ encoding=â€utf-8â€?>
  <video-game> 
 
-	<introduction name=”bloodborne”>
+	<introduction name=â€bloodborneâ€>
 
 		<plot>
 The ancient town of the mountainous region, Yharnam, is a cursed place. The unique local diseases of the plague of monsters have been circulating since ancient times. As in the name of a disease, a patient suffering from this condition will become a beast that loses his mind as a disease name. However, as in the cursed ancient city, it is also said that there are medical techniques that can cure the root of the disease. Most patients with this disease travel long distances to Yharnam and seek ways to rescue them.The player acted a foreign adventurer who came to Yharnam for medical treatment. After receiving blood transfusion under the guidance of an unknown mysterious man, he fell into a dream full of monsters, and then awakened in a strange hospital. At the beginning, the player does not have any items such as props and weapons. It is equal to the state of unarmed and empty fists to explore in the hospital. Soon, the werewolf that I saw in my dreams appeared in front of the player's eyes, and the game was maliciously designed to "make you die once at the beginning" (of course, the player can be alive if he has a very perfect game skills). An unarmed, attacking protagonist who can only inflict 2 to 3 damage will be killed by the werewolf for about two times.The player who died will be sent to the Hunter's Dream, which is the main supply point in this game, and then the death will be sent back here. Players can purchase items and equipment at the Bath Messenger and the ability to upgrade their characters at the inanimate Doll.
@@ -50,7 +50,7 @@ These watchmen admonish those who have become addled with blood. Be they men or 
 <organization>The League</organization>
 
 			<information>
-The League is a band of Hunters who have taken an oath and are bound by a single purpose. By aligning yourself to The League, led by a mysterious figure in a constable’s garb and bucket helmet, you can assist other players online in the game and compete in The League’s online rankings leaderboard. 
+The League is a band of Hunters who have taken an oath and are bound by a single purpose. By aligning yourself to The League, led by a mysterious figure in a constableâ€™s garb and bucket helmet, you can assist other players online in the game and compete in The Leagueâ€™s online rankings leaderboard. 
 			</information>
 								
 		<organization>The Blood Beast</organization>
@@ -65,7 +65,7 @@ Those who swear this oath take on a ghastly form and enjoy accentuated transform
 Those who take this oath become a Lumenwood that peers towards the sky, feeding phantasms in its luscious bed. Phantasms guide us and lead us to further discoveries.
 			</information>
 	
-<enemy=”kins and the great one”>
+<enemy=â€kins and the great oneâ€>
 	<name> Moon Presence </name>
 
 		<location>Hunter's Dream</locatrion>
