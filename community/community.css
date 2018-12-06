@@ -26,6 +26,16 @@ body {
 	padding: 1em;
 }
 
+header
+{
+	background-image: url("Galaxy.jpg");
+	background-size: 100% auto;
+	background-position: center;
+
+	padding: 15em 10em;
+	transition: background-image 0.5s;
+}
+
 nav {
 	text-align: center;
 }

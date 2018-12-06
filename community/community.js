@@ -1,19 +1,19 @@
-function bg_Galaxy ()
+function bg_1 ()
 {
-	document.getElementById("header").style.backgroundImage= "url('Galaxy.jpg')";
-	setTimeout(bg_a, 4000);
+	document.getElementById("header").style.backgroundImage = "url('Galaxy.jpg')";
+	setTimeout(bg_2, 4000);
 }
 
-function bg_a ()
+function bg_2 ()
 {
 	document.getElementById("header").style.backgroundImage = "url('a.jpg')";
-	setTimeout(bg_b, 4000);
+	setTimeout(bg_3, 4000);
 }
 
-function bg_b ()
+function bg_3 ()
 {
 	document.getElementById("header").style.backgroundImage = "url('b.jpg')";
-	setTimeout(bg_Galaxy, 4000);
+	setTimeout(bg_1, 4000);
 }
 
 function resize_title()
@@ -24,8 +24,7 @@ function resize_title()
 		document.getElementById("title").style.fontSize="3em";
 }
 
-setTimeout(bg_a, 2000);
-
+setTimeout(bg_1, 2000);
 function show_popup ( source, description )
 {
 	var p = document.getElementById("popup");
